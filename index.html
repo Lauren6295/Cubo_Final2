@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+        <script src="script.js"></script>
+
+		<title>Rompecabezas</title>
+
+		<link rel="icon" type="image/png" href="images/favicon.png">
+	</head>
+
+	<body>
+		<h1>Rompecabezas</h1>
+
+		<div id="contenedor">
+    
+			<div id="cubo" class="clearfix">
+				<div id="princesa" class="cara">
+			
+                    <img src="images/cabezaPrincesa.gif" class="image">
+                </div>
+<!--************************************************************************-->       
+				<div id="pirata" class="cara">
+                    <img src="images/cabezaPollo.gif" class="image">
+                </div>
+<!--************************************************************************-->       
+				<div id="mago" class="cara">
+                    <img src="images/cabezaNina.gif" class="image">
+                </div>
+<!--************************************************************************-->       
+				<div id="caballero" class="cara">
+                    <img src="images/cabezaCaballero.gif" class="image">
+				</div>
+			</div>
+
+<!--************************************************************************-->
+			<ul class="menu clearfix">
+				<li>
+					<a href="#" class="activo" onclick="rotar(0, event);" >Click</a>
+				</li>
+				<li>
+					<a href="#" class="defecto"  onclick="rotar(90, event);">Click</a>
+				</li>
+				<li>
+					<a href="#" class="defecto" onclick="rotar(180, event);">Click</a>
+				</li>
+				<li>
+					<a href="#" class="defecto" onclick="rotar(270, event);">Click</a>
+				</li>
+			</ul>
+<!--************************************************************************-->
+<!--************************************************************************-->
+<!--************************************************************************-->
+
+	<div id="cuboCuerpo">
+		<div id="cuerpoPrincesa" class="cara">
+			<img src="images/cuerpoPrincesa.gif" class="image">
+		</div>
+<!--************************************************************************-->       
+		<div id="cuerpoPirata" class="cara">
+			<img src="images/cuerpoPollo.gif" class="image">
+		</div>
+<!--************************************************************************-->       
+		<div id="cuerpoMago" class="cara">
+			<img src="images/cuerpoNina.gif" class="image">
+		</div>
+<!--************************************************************************-->       
+		<div id="cuerpoCaballero" class="cara">
+			<img src="images/cuerpoCaballero.gif" class="image">
+		</div>
+	</div>	
+<!--************************************************************************--> 
+
+	<ul class="menuCuerpo">
+		<li>
+			<a href="#" class="activo" onclick="rotarCuerpo(0, event);" >Click</a>
+		</li>
+		<li>
+			<a href="#" class="defecto"  onclick="rotarCuerpo(90, event);">Click</a>
+		</li>
+		<li>
+			<a href="#" class="defecto" onclick="rotarCuerpo(180, event);">Click</a>
+		</li>
+		<li>
+			<a href="#" class="defecto" onclick="rotarCuerpo(270, event);">Click</a>
+		</li>
+	</ul>
+<!--************************************************************************-->
+<!--************************************************************************-->
+<!--************************************************************************-->
+
+<ul class="menuPies">
+	<li>
+		<a href="#" class="activo" onclick="rotarPies(0, event);" >Click</a>
+	</li>
+	<li>
+		<a href="#" class="defecto"  onclick="rotarPies(90, event);">Click</a>
+	</li>
+	<li>
+		<a href="#" class="defecto" onclick="rotarPies(180, event);">Click</a>
+	</li>
+	<li>
+		<a href="#" class="defecto" onclick="rotarPies(270, event);">Click</a>
+	</li>
+</ul>
+
+<div id="cuboPies" class="clearfix">
+	<div id="piesPrincesa" class="cara">
+		<img src="images/piesPrincesa.gif" class="image">
+	</div>
+<!--************************************************************************-->       
+	<div id="piesPirata" class="cara">
+		<img src="images/piesPollo.gif" class="image">
+	</div>
+<!--************************************************************************-->       
+	<div id="piesMago" class="cara">
+		<img src="images/piesNina.gif" class="image">
+	</div>
+<!--************************************************************************-->       
+	<div id="piesCaballero" class="cara">
+		<img src="images/piesCaballero.gif" class="image">
+	</div>
+</div>
+
+		</div>
+	</div>
+
+</html>
